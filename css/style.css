@@ -1,0 +1,42 @@
+section {
+    display: flex;
+    background: gray;
+    flex-flow: row wrap;
+   
+    
+    
+}
+ .item1, .item2, .item3, .item4, .item5, .item6{
+    width: 150px;
+    height: 150px;
+    background: purple;
+    font-size: larger;
+    color: white;
+    text-align: center;
+   flex-basis: 200px;
+    
+ 
+
+}
+.item2 {
+    background: hotpink;
+    order: 1;
+    flex-grow: 1;
+}
+.item3 {
+    background: green;
+    order: 1;
+    flex-basis: 100px;
+}
+.item4 {
+    background: rgb(95, 104, 95);
+    flex-basis: 300px;
+}
+.item5 {
+    background: rgb(88, 131, 88);
+    order: 1;
+    flex-grow: 2;
+}
+.item6 {
+    background: rgb(161, 37, 109);
+}
